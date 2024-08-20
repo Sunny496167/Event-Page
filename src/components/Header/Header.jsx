@@ -34,7 +34,7 @@ const Header = () => {
         <div className="flex gap-4">
           <div className="grow my-auto font-medium cursor-pointer mr-5 text-black">
             <NavLink
-              to="/eventsPage"
+              to="/"
               className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 border-b ${
                   isActive ? "text-orange-700" : "text-gray-700"
